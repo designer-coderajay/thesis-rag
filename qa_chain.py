@@ -15,7 +15,7 @@ from dataclasses import dataclass, field
 try:
     import ollama
 except ImportError:
-    OLLAMA_AVAILABLE = False
+    OLLAMA_AVAILABLE = False  # ← Gracefully handles missing module
 
 
 @dataclass
