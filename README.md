@@ -1,5 +1,5 @@
 ---
-noteId: "49a5efd0e62711f08f69a10f262c5b20"
+noteId: "57c2b0b0e62911f08f69a10f262c5b20"
 tags: []
 
 ---
@@ -60,7 +60,7 @@ thesis-rag/
 ### 1. Clone & Setup
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/thesis-rag.git
+git clone https://github.com/designer-coderajay/thesis-rag.git
 cd thesis-rag
 python -m venv .venv
 source .venv/bin/activate
@@ -147,19 +147,18 @@ This system was built for my Master's thesis:
 
 > **"Explainable AI for LLMs: Causally Grounded Mechanistic Interpretability and Concise Natural-Language Explanations"**
 
-Key papers indexed include:
-- IOI Circuit (Wang et al., 2023)
-- Toy Models of Superposition (Elhage et al., 2022)
-- ERASER Benchmark (DeYoung et al., 2020)
-- SHAP, LIME, Integrated Gradients
+Key research areas covered:
+- Mechanistic Interpretability (IOI circuits, superposition)
+- Feature Attribution (SHAP, LIME, Integrated Gradients)
+- Evaluation Benchmarks (ERASER, e-SNLI)
+
+## 📄 License
+
+MIT License - See [LICENSE](LICENSE) file.
 
 ## 🤝 Contributing
 
 This is a personal thesis project. Feel free to fork and adapt for your own research!
-
-## 📄 License
-
-MIT License - Use freely for your own research.
 
 ---
 
