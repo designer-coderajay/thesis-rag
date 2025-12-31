@@ -15,8 +15,7 @@ A Retrieval-Augmented Generation (RAG) system for academic research, built for m
 | ------------ | ------------------------------------- |
 | Vector Store | FAISS (Facebook AI Similarity Search) |
 | Embeddings   | `nomic-embed-text` (768-dim)          |
-| LLM          | Llama 3.2 (local) or Groq API (cloud) |
-| Frontend     | Streamlit                             |
+| LLM          | Llama 3.2 (local)                     |
 | Language     | Python 3.12                           |
 
 ## 🏗️ Architecture
@@ -41,7 +40,6 @@ thesis-rag/
 ├── ingestion.py         # PDF/web/YouTube processing
 ├── vector_store.py      # FAISS vector storage
 ├── qa_chain.py          # LLM query chain with citations
-├── streamlit_app.py     # Web interface
 ├── requirements.txt
 └── data/                # Your research papers (not tracked)
     ├── pdfs/
